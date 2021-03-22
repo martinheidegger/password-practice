@@ -1,0 +1,16 @@
+{
+  "name": "password-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "owasp-password-strength-test": "^1.3.0"
+  }
+}
