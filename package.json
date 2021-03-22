@@ -1,16 +1,26 @@
 {
   "name": "password-practice",
+  "description": "Test if you still remember your password.",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "bin": "bin/password-practice",
+  "keywords": ["password", "learning", "cli", "tool", "helper", "memorizer"],
   "author": "Martin Heidegger <martin.heidegger@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^8.0.0",
     "owasp-password-strength-test": "^1.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinheidegger/password-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinheidegger/password-practice/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/password-practice#readme"
 }
